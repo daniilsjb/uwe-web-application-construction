@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    padding: 8px 16px;
+    background-color: rgb(43, 66, 96);
+    color: white;
+}
+
+.content {
+    margin: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 8px 0px;
+}
+
+.paragraph {
+    margin-bottom: 8px;
+}
+
+.note {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quote {
+    text-align: center;
+}
+
+.author {
+    text-align: right;
+}
