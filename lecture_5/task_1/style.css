@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #f1f1f1;
+    gap: 32px;
+}
+
+/**
+ * Square and Circle
+ */
+
+.shapes {
+    display: flex;
+    flex-direction: row;
+}
+
+.square,
+.circle {
+    width: 200px;
+    height: 200px;
+}
+
+.square {
+    background-color: #2ecc71;
+}
+
+.circle {
+    background-color: #2e5bcc;
+    border-radius: 50%;
+}
+
+/**
+ * Italian Flag
+ */
+
+.italian {
+    display: flex;
+}
+
+.green-vertical,
+.white-vertical,
+.red-vertical {
+    height: 90px;
+    width: 60px;
+}
+
+.green-vertical {
+    background-color: green;
+}
+
+.white-vertical {
+    background-color: white;
+}
+
+.red-vertical {
+    background-color: red;
+}
+
+/**
+ * Costa Rica Flag
+ */
+
+.costa-rica {
+    display: flex;
+    flex-direction: column;
+}
+
+.white-horizontal,
+.blue-horizontal,
+.red-horizontal {
+    height: 15px;
+    width: 180px;
+}
+
+.blue-horizontal {
+    background-color: blue;
+}
+
+.red-horizontal {
+    background-color: red;
+}
+
+.white-horizontal {
+    background-color: white;
+}
