@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+#content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+    padding: 16px;
+    background-color: white;
+}
+
+input {
+    margin-top: 4px;
+    padding: 4px 8px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+input[type=radio] {
+    width: auto;
+}
+
+input[type=checkbox] {
+    width: auto;
+}
+
+input[type=submit] {
+    background-color: rgb(102, 118, 211);
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border-width: 0;
+    padding: 8px;
+}
+
+.required {
+    color: rgb(177, 9, 9);
+}
